@@ -1,0 +1,38 @@
+# Directories
+.vs/
+.vscode/
+scripts/__pycache__/
+Debug-windows-x86_64/
+Release-windows-x86_64/
+Dist-windows-x86_64/
+bin/
+bin-int/
+bin-obj/
+build/
+builds/
+HighLo/vendor/VulkanSDK/
+HighLoEdit/Resources/Scripts/Intermediates
+HighLoEdit/Resources/Scripts/**.pdb
+!vendor/bin/
+Sandbox/assets
+HighLoEdit/assets
+HighLoEdit/editorconfig.ini
+
+# Visual Studio and IntelliJ files
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+**.csproj
+**.csproj.user
+.idea/
+
+# java build files and gradle files
+.gradle/
+
+# Others
+*.log
+
+lfs/
+hooks/
+__pycache__/
